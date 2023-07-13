@@ -25,4 +25,12 @@ public class LeaveApproval extends AppCompatActivity {
     }
 }
 
+// fragments class file in android ///////////
+
+Intent intent = new Intent(getContext(), Salary.class);
+                startActivity(intent);
+                getActivity().finish();
+
+// fragments class file in android //////////
+
 
